@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Forms Review</title>
+  </head>
+  <body>
+    <section id="overlay">
+      <img src="https://logodownload.org/wp-content/uploads/2014/04/honda-motos-logo-1.png" alt="hhbmohi_honda-motos-logo" id="logo">
+      <hr>
+      <form action="submission.html" method="POST">
+				<h1>拼裝出你的夢幻車</h1>
+        <section class="protein">
+          <label for="patty">速克達還是擋車?</label>
+    			<input type="text" name="patty" id="patty">
+        </section>
+        <hr>
+        
+        <section class="patties">
+          <label for="amount">買幾台?</label>
+          <input type="number" name="amount" id="amount">
+        </section>
+        <hr>
+        
+        <section class="cooked">
+          <label for="doneness">喜歡多大的馬力?</label>
+          <br>
+          <span>50CC</span>
+          <input type="range" name="doneness" id="doneness" value="3" min="1" max="5">
+          <span>1000CC以上</span>
+        </section>
+        <hr>
+        
+        <section class="toppings">
+          <span>喜歡什麼車系?</span>
+          <br>
+          <input type="checkbox" name="topping" id="URBAN" value="URBAN">
+          <label for="URBAN">URBAN</label>
+          <input type="checkbox" name="topping" id="STREET" value="STREET">
+          <label for="STREET">STREET</label>
+          <input type="checkbox" name="topping" id="SPORTS" value="SPORTS">
+          <label for="onion">SPORTS</label>
+          <input type="checkbox" name="topping" id="ADVENTURE" value="ADVENTURE">
+          <label for="onion">ADVENTURE</label>
+          <input type="checkbox" name="topping" id="CRUISER" value="CRUISER">
+          <label for="onion">CRUISER</label>
+        </section>
+        <hr>
+        
+        <section class="cheesy">
+          <span>要加裝行車紀錄器嗎?</span>
+          <br>
+          <input type="radio" name="cheese" id="yes" value="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" name="cheese" id="no" value="yes">
+          <label for="no">No</label>
+        </section>
+        <hr>
+       
+        <section class="bun-type">
+          <label for="bun">主要行駛環境</label>
+          <select name="bun" id="bun">
+            <option value="City">市區</option>
+            <option value="Mountain">山路</option>
+            <option value="OffRoad">OffRoad</option>
+          </select>
+        </section>
+        <hr>
+        
+        <section class="sauce-selection">
+          <label for="Habits">駕駛習慣</label>
+          <input list="Habits" id="Habit" name="Habit">
+          <datalist id="Habits">
+            <option value="極度安全"></option>
+            <option value="悠閒駕駛"></option>
+            <option value="一定瀟胚"></option>
+        </section>
+        <hr>
+        <section class="extra-info">
+          <label for="extra">還有其他要求嗎?</label>
+          <br>
+          <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+        </section>
+        <hr>
+
+        <section class="submission">
+          <input type="submit" value="Submit">
+        </section>
+      </form>
+    </section>
+  </body>
+</html>
